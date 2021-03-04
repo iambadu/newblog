@@ -1,20 +1,13 @@
 @import "./rfs.scss";
 
-.App {
-  background-color: #282c34;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 html {
   height: 100%;
 }
 body {
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   height: 100%;
-  background-color: #353535;
+  background-color: #282c34;
   margin: 0;
   position: relative;
   color: #2a323a;
@@ -90,20 +83,6 @@ body {
     }
   }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes wheel-spin {
   from {
